@@ -24,3 +24,24 @@ h1 {
 .login-div input[type="password"] {
     border: solid 1px blue
 }
+
+.login-div button:hover {
+    box-shadow: 2px 2px 3px gray;
+}
+
+.login-div input:focus {
+    box-shadow: 2px 2px 3px gray;
+    border: none;
+}
+
+ul li:last-child {
+    text-decoration: underline;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:nth-child(2) {
+    color: blue;
+}
